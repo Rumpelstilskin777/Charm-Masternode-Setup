@@ -19,7 +19,7 @@
 <p>Shell script to install a <a href="http://www.charmcoin.io/" rel="nofollow">Charm Masternode</a> on a Linux server running Ubuntu 16.04. Use it on your own risk.</p>
 <hr>
 <h2><a id="user-content-installation" class="anchor" aria-hidden="true" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
-<pre><code>wget -N https://raw.githubusercontent.com/Rumpelstilskin777/Charm-Masternode-Setup/master/charm-setup.sh
+<pre><code>wget -N https://raw.githubusercontent.com/Rumpelstilskin777/Charm-Masternode-Setup/63b1931e122120704baa5f8ff7461ee2fd900760/charm-setup.sh
 bash charm-setup.sh
 </code></pre>
 <hr>
@@ -28,7 +28,7 @@ bash charm-setup.sh
 <ol>
 <li>Open the Charm Desktop Wallet.</li>
 <li>Go to RECEIVE and create a New Address: <strong>MN1</strong></li>
-<li>Send <strong>25000</strong> CHARM to <strong>MN1</strong>. You need to send all 10000 coins in one single transaction.</li>
+<li>Send <strong>10000</strong> CHARM to <strong>MN1</strong>. You need to send all 10000 coins in one single transaction.</li>
 <li>Wait for 20 minutes.</li>
 <li>Go to <strong>Help -&gt; "Debug Window - Console"</strong></li>
 <li>Type the following command: <strong>masternode outputs</strong></li>
