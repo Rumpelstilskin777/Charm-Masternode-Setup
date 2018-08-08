@@ -63,8 +63,8 @@ charm-cli getinfo
 </code></pre>
 <p>Also, if you want to check/start/stop <strong>Charm</strong>, run one of the following commands as <strong>root</strong>:</p>
 <pre><code>systemctl status Charm #To check if CHARM service is running
-systemctl start Charm #To start Marble2 service
-systemctl stop Charm #To stop Marble2 service
+systemctl start Charm #To start CHARM service
+systemctl stop Charm #To stop CHARM service
 systemctl is-enabled Charm #To check if CHARM service is enabled on boot
 </code></pre>
 <hr>
